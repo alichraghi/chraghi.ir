@@ -26,7 +26,7 @@ func main() {
 	app.Get("/", func(c *fiber.Ctx) error {
 		// Render index
 		return c.Render("index", fiber.Map{
-			"title": "Web Design",
+			"title": "Ali Chraghi",
 			"email": "2yx2rx6uu@relay.firefox.com",
 			"discord": "AliChraghi#8615",
 		})
