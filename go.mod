@@ -1,4 +1,4 @@
-module cdcat
+module pw
 
 go 1.17
 
