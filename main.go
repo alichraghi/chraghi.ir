@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 	
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/template/pug"
@@ -31,5 +32,5 @@ func main() {
 		})
 	})
 
-	log.Fatal(app.Listen(":80"))
+	log.Fatal(app.Listen(":" + os.Getenv("PORT")))
 }
