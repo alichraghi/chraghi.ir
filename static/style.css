@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Lexend";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/static/lexend.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Lexend;
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #0e0e0e;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #333333;
+}
+
+#page > * {
+  background-color: #000000;
+  padding: 30px 20px;
+}
+
+.mail {
+  color: #f2586d;
+}
+
+.discord {
+  color: #5865f2;
+}
+
+.tj {
+  text-align: justify;
+}
+
+.skill {
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid;
+}
+
+.skill[level="2"] {
+  border-color: #1dcd3b;
+}
+
+.skill[level="1"] {
+  border-color: #f2586d;
+}
+
+.skill[level="0"] {
+  border-color: #587cf2;
+}
