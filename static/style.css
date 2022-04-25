@@ -14,68 +14,59 @@ html {
 
 body {
   font-family: "Lexend", "Icon", "IconBrand";
-  color: white;
+  background-color: #ffe5bd;
+  display: flex;
+  justify-content: center;
 }
 
-::-webkit-scrollbar {
-  width: 12px;
-  background-color: #0e0e0e;
+a {
+  background-color: #ffe5bd;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70%, #ffd18d 70%, #ffd18d 100%);
+  color: #000000;
+  text-decoration: none;
 }
 
-::-webkit-scrollbar-thumb {
-  background-color: #333333;
+a:hover {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70%, #ffbf5f 70%, #ffbf5f 100%);
 }
 
-#page > * {
-  background-color: #000000;
-  padding: 30px 20px;
+/* Content */
+
+.container {
+  width: 80%;
+  border: 1px solid #000000;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 16px;
 }
 
-#page > *:first-child {
-  padding: 20px;
+@media only screen and (max-width: 720px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    width: 60%;
+  }
+}
+
+
+/* Contact */
+
+.contact a {
+  margin: 0 5px;
 }
 
 .mail {
   color: #f2586d;
 }
 
+.github {
+  color: #000000;
+}
+
 .discord {
   color: #5865f2;
-}
-
-.tj {
-  text-align: justify;
-}
-
-.skill {
-  width: 100%;
-  padding: 10px;
-  text-align: center;
-  border-bottom: 2px solid;
-}
-
-.skill[level="2"] {
-  border-color: #1dcd3b;
-}
-
-.skill[level="1"] {
-  border-color: #f2586d;
-}
-
-.skill[level="0"] {
-  border-color: #587cf2;
-}
-
-#con {
-  padding: 0;
-}
-
-#con > * {
-  color: white;
-  text-decoration: none;
-}
-
-#con svg {
-  width: 16pt;
-  margin: 5px;
 }
