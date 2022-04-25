@@ -12,6 +12,10 @@ html {
   scroll-behavior: smooth;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Lexend", "Icon", "IconBrand";
   background-color: #ffe5bd;
@@ -37,7 +41,6 @@ a:hover {
   border: 1px solid #000000;
   padding: 10px 20px;
   background-color: #ffffff;
-  border-radius: 16px;
 }
 
 @media only screen and (max-width: 720px) {
