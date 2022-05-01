@@ -1,7 +1,7 @@
 :root {
-  --bg-color: #e1ffe7;
-  --fg-color: #a0f59d;
-  --fg-hover-color: #80da7d;
+  --bg-color: BG_COLOR;
+  --fg-color: FG_COLOR;
+  --fg-hover-color: FG_HOVER_COLOR;
 }
 
 @font-face {
