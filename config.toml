@@ -1,0 +1,22 @@
+baseURL = "https://chraghi.ir"
+languageCode = "en-us"
+title = "Ali Chraghi"
+theme = "smol"
+[menu]
+  [[menu.main]]
+        identifier = "github"
+        name = "Github"
+        url = "http://github.com/alichraghi"
+        weight = 1 
+
+  [[menu.main]]
+        identifier = "devlog"
+        name = "Devlog (wip)"
+        url = "/devlog/"
+        weight = 2 
+
+  [[menu.main]]
+        identifier = "photos"
+        name = "Photos (wip)"
+        url = "/photos/"
+        weight = 3
