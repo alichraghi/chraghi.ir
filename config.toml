@@ -2,6 +2,7 @@ baseURL = "https://chraghi.ir/"
 languageCode = "en-us"
 title = "Ali Chraghi"
 theme = "smol"
+publishDir = "public"
 [menu]
   [[menu.main]]
         identifier = "github"
