@@ -16,4 +16,4 @@ jobs:
           # Provide personal access token
           TOKEN: $GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}
       - name: create CNAME 
-        run: chraghi.ir > CNAME
+        run: echo chraghi.ir > CNAME
