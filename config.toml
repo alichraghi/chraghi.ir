@@ -20,6 +20,6 @@ socials = [
 ]
 
 [extra.analytics]
-enabled = false 
+enabled = true 
 goatcounter_user = "ali"
 
