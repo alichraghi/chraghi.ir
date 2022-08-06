@@ -1,0 +1,25 @@
+theme = "apollo"
+base_url = "https://chraghi.ir"
+compile_sass = false
+build_search_index = false 
+
+[markdown]
+highlight_code = true
+highlight_theme = "gruvbox-dark"
+
+[extra]
+theme = "auto"
+menu = [
+    { name = "posts", url = "/posts", weight = 1 },
+    { name = "projects", url = "/projects", weight = 2 },
+    { name = "about", url = "/about", weight = 3 },
+]
+socials = [
+    { name = "twitter", url = "https://twitter.com/ali_chraghi", icon = "twitter" },
+    { name = "github", url = "https=//github.com/alichraghi", icon = "github" },
+]
+
+[extra.analytics]
+enabled = false 
+goatcounter_user = "ali"
+
