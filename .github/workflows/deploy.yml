@@ -15,5 +15,6 @@ jobs:
           PAGES_BRANCH: gh-pages
           # Provide personal access token
           TOKEN: $GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: $GITHUB_ACTOR:${{ secrets.GITHUB_TOKEN }}
       - name: create CNAME 
         run: echo chraghi.ir > CNAME
